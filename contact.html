@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact/ using list items and attributes</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -18,30 +18,109 @@
             <a href="/navbar/practice.html">Practice Test #1</a>
             <a href="/navbar/practice2.html">Practice Test #2</a>
             <a href="/navbar/font-awesome.html">Font Awesome: Test</a>
+            <a href="/test-bar/test4-bstrap.html">Bootstrap Test: 1</a>
+            <a href="/test-bar/test2-forms.html">Forms</a>
           </div>
     </nav>
     <main>
-        <h1>Follow Me on Social Media!</h1>
-        <div class="contact-info">
-            <h2><strong>Contact Information</strong></h2>
-            <ul>
-                <li><a href="https://www.facebook.com/johnpaul5304eva">facebook</a></li>
-                <li><a href="https://www.instagram.com/thehotdawgguyllc/">Instagram</a></li>
-                <li><a href=""></a>github</li>
-                <li><a href=""></a>our website</li>
-                
-            </ul>
-
-        </div>
+        <h3>Follow Me on Social Media!</h3>
+  
   
     </main>
-    <p>
+    <aside>
+        <h2>Doing things correctly</h2>
+        <p><strong> Use The Correct Inputs</strong></p>
+        <p>
+        Using the right input types is critical when building a form. Sure, a < div > is easier to style in many cases, but there’s so much that comes baked into native form elements that you would have to recreate:
         <ul>
-            <li><a href="#">Hello!</a></li>
-            <li><a href="#">Hey</a></li>
-            <li><a href="#">Where</a></li>
-            <li><a href="#">Why</a></li>
+            <li class="ci-li">reachable via keyboard navigation with the tab key</li>
+            <li class="ci-li">focusable</li>
+            <li class="ci-li">access to client-side validation</li>
+            <li class="ci-li">keyboard interactions to choose radio inputs</li>
+            <li class="ci-li">keyboard interactions to check checkboxes inputs</li>
+            <li class="ci-li">keyboard interactions to choose select options</li>
+            <li class="ci-li">implicit form submit</li>
+            <li class="ci-li">descriptive semantics for screen-readers</li>
         </ul>
-    </p>
+        </p>
+        <h2>
+            How to use Inputs: <em>The correct way</em>
+         </h2>
+        <br><p>
+            Try to do all that with a < div > and you will likely fail miserably and end up quitting web development. Please don’t do that.
+            <br>
+           <em>Instead,</em> you should be able to find an appropriate input for just about anything you can think of. After all, according to MDN, there are 22 different types of inputs, as well as < select > and < textarea >.
+        </p>
+        <h3>
+            The following is an example of an information form, built using HTML5 and PHP: 
+         </h3>
+    </aside>
+
+<section>
+    <div class="container form">
+        <form action="action_page.php" method="get">
+            <p>Hello and thank you for stopping by my page! Check out my registration form below. It doesn't collect anything you put in, it's sole purpose is to create a form, semantically as possible, via Visual Studio Code.
+                <br>
+                Pretty neat, huh?
+            </p>
+           <fieldset>
+            <legend>
+                Your information here:
+            </legend>
+            <label for="fname">First Name</label>
+            <input type="text" name="firstname" id="fname" placeholder="First Name">
+            <br>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lastname" id="lname" placeholder="Last Name">
+            <br>
+            <label for="paddress">Physical Address(Optional)</label>
+            <input type="text" name="physical" id="paddress" placeholder="Physical Address(Optional)">
+            <label for="address">Mailing Address</label>
+            <input type="text" name="address" id="address" placeholder="Mailing Address">
+            <br>
+            <label for="phone">Phone #</label>
+            <input type="text" name="pnumber" placeholder="Phone Number">
+            <br>
+
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="U.S.A.">United States of America</option>
+            </select>
+           </fieldset>
+           <br>
+
+          <fieldset>
+            <legend>Your opinion matters!</legend>
+            <label for="subject">Subject</label>
+            <textarea placeholder="Write here..." name="subject" id="subject" cols="50" rows="15" style="height: 200px;"></textarea>
+            <input type="submit" value="Submit">
+
+          </fieldset>
+            
+        </form>
+    </div>
+    <!--
+
+    -->
+</section>
+
+    <footer>
+        <div class="contact-info">
+            <h2><strong>Contact Information</strong></h2>
+            
+            <ul style="margin: 5%; text-decoration: none;">
+                <li><a href="https://www.facebook.com/johnpaul5304eva">Facebook</a></li>
+                <li><a href="https://www.instagram.com/thehotdawgguyllc/">Instagram</a></li>
+                <li><a href="https://github.com/jpshade1995">Github</a></li>
+                <li><a href="https://www.thehotdawgguy.org">The Hot Dawg Guy, LLC.</a></li>
+                
+            </ul>
+            <img  src="./img/ftm3logo.jpg.png" width="10%" alt="FelonsToMillionaires">
+            <img src="./img/Hot-Dawg.png" width="10%" alt="THDG">
+        </div>
+    </footer>
 </body>
 </html>

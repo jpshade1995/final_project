@@ -16,10 +16,9 @@ background-color: yellow;
     background: linear-gradient(-90deg,#04aa6d, yellow);
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 /*
-
+--styles for: navbar: pract1 google fonts---
 */
 h1 .concept{
     font-family: 'Times New Roman';
@@ -71,6 +70,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .logo{
+    width: 15%;
     float: right;
 }
 .topnav a:hover{
@@ -91,4 +91,22 @@ body{
 }
 .contact-info li a{
 text-decoration: none;
+}
+.ci-li{
+    margin-left: 8%;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    padding-left: 7%;
+}
+textarea{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+.container.form{
+    padding: 0 0 2% 2%;
 }

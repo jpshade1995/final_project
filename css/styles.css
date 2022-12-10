@@ -1,6 +1,14 @@
 html{
-background: linear-gradient(90deg, aqua, yellow);
+    background: linear-gradient(90deg, aqua, yellow);
+}
+body{
+    background: linear-gradient(90deg, aqua, yellow);
+}
+*{
 
+    
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .item{
     background-color: #04aa6d;
@@ -109,4 +117,16 @@ label{
 }
 .container.form{
     padding: 0 0 2% 2%;
+}
+.foot-li{
+    display: flex;
+    justify-content: space-between;
+}
+li a.nav-link:hover{
+    background-color: #04aa6d;
+    color: white;
+
+}
+.navbar-expand-lg.bg-light{
+    background: linear-gradient(yellow, aqua);
 }

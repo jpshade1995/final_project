@@ -1,0 +1,124 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>project 2: forms</title>
+        <!--css-->
+        <link rel="stylesheet" href="proj1.css">
+        <!--favicon-->
+        <link rel="shortcut icon" href="../finalimg/Hot-Dawg.png" type="image/x-icon">
+        
+    </head>
+
+    <body style="background: linear-gradient(#f2f2f2, grey);" class="proj2">   
+        <header>
+            <nav>
+                <ul>  
+                    <li><a href="/navigation.html">home</a></li>
+                    <li><a href="/contact.html">contact</a></li>
+                    <li><a href="/about.html">about</a></li>
+                    <li><a href="#">projects</a>
+                        <ul class="dropdown">
+                            <li><a href="/proj/proj1.html">project 1</a></li>
+                            <li><a href="/proj/proj2.html">project 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">languages</a>
+                        <ul class="dropdown">
+                            <li><a href="https://www.w3schools.com/html/default.asp">html</a></li>
+                            <li><a href="https://www.w3schools.com/css/default.asp">css</a></li>
+                            <li><a href="https://www.w3schools.com/js/default.asp">javascript</a></li>
+                            <li><a href="https://www.w3schools.com/python/default.asp">python</a></li>
+                            <li><a href="https://www.w3schools.com/sql/default.asp">SQL</a></li>
+                            <li><a href="https://www.w3schools.com/php/default.asp">php</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li><a href="/gallery.html">gallery</a></li>
+                    <a href="https://thehotdawgguy.org"><img class="logo" src="../finalimg/Hot-Dawg.png" width="125px" alt="logo"></a>
+                </ul>
+            </nav>
+        </header>
+            <section class="body-items">
+                <p><strong>Use the correct inputs</strong></p>
+                <br>
+                <p>Using the right input types is critical when building a form. Sure, a < div > is easier to style in many cases, but there’s so much that comes baked into native form elements that you would have to recreate:</p>
+                <ul class="container-form">
+                    <li class="ci-li">*reachable via keyboard navigation with the tab key</li>
+                    <li class="ci-li">*focusable</li>
+                    <li class="ci-li">*access to client-side validation</li>
+                    <li class="ci-li">*keyboard interactions to choose radio inputs</li>
+                    <li class="ci-li">*keyboard interactions to check checkboxes inputs</li>
+                    <li class="ci-li">*keyboard interactions to choose select options</li>
+                    <li class="ci-li">*implicit form submit</li>
+                    <li class="ci-li">*descriptive semantics for screen-readers</li>
+                </ul>
+            </section>
+            <article class="body-items">
+                <h2>
+                    How to use Inputs: <em>The correct way</em>
+                 </h2>
+                <br><p>
+                    Try to do all that with a < div > and you will likely fail miserably and end up quitting web development. Please don’t do that.
+                    <br>
+                   <em>Instead,</em> you should be able to find an appropriate input for just about anything you can think of. After all, according to MDN, there are 22 different types of inputs, as well as < select > and < textarea >.
+                </p>
+                <h3 style="margin-bottom: 6%;">
+                    The following is an example of an information form, built using HTML5 and PHP: 
+                 </h3>
+
+                 <div class="information-form">
+                    <form style="border:solid;" action="action_page.php" method="get">
+                        <p style="margin: 4% ;">Hello and thank you for stopping by my page! 
+                            <br>
+                            Check out my registration form below! <br>
+                            Pretty neat, huh?
+                        </p>
+                        <fieldset style="padding: 4%;">
+                            <legend>
+                                Your information here:
+                            </legend>
+                            <label for="fname">First Name</label>
+                            <input type="text" name="firstname" id="fname" placeholder="First Name">
+                            <br>
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lastname" id="lname" placeholder="Last Name">
+                            <br>
+                            <label for="paddress">Physical Address(Optional)</label>
+                            <input type="text" name="physical" id="paddress" placeholder="Physical Address(Optional)">
+                            <label for="address">Mailing Address</label>
+                            <input type="text" name="address" id="address" placeholder="Mailing Address">
+                            <br>
+                            <label for="phone">Phone #</label>
+                            <input type="text" name="pnumber" placeholder="Phone Number">
+                            <br>
+                
+                
+                            <label for="country">Country</label>
+                            <select name="country" id="country">
+                                <option value="Australia">Australia</option>
+                                <option value="Canada">Canada</option>
+                                <option value="U.S.A.">United States of America</option>
+                            </select>
+                           </fieldset>
+                           <br>
+                
+                          <fieldset style="padding: 2%;">
+                            <legend>Your opinion matters!</legend>
+                            <label for="subject">Subject</label>
+                            <textarea placeholder="Write here..." name="subject" id="subject" cols="50" rows="15" style="height: 200px;"></textarea>
+                            <input type="submit" value="Submit">
+                
+                          </fieldset>
+                            
+                    </form>
+                 </div>
+            </article>
+        
+    
+    
+    </body>
+    </html>

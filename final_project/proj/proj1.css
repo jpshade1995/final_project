@@ -1,0 +1,168 @@
+h1 .concept{
+    margin: 8px;
+    font-family: 'Times New Roman';
+}
+.kdam{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.kosugi{
+    font-family: 'Kosugi Maru', sans-serif;
+}
+.montecarlo{
+    font-family: 'MonteCarlo', cursive;
+}
+.nerko{
+    font-family: 'Nerko One', cursive;
+}
+.rubik{
+    font-family: 'Rubik Wet Paint';
+}
+.shrikhand{
+    font-family: 'Shrikhand';
+}
+.sedgwick{
+    font-family: 'Sedgwick Ave Display';
+}
+.zen-dot{
+    font-family: 'Zen Dots';
+}
+    
+.monty-fonty{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.goog-font{
+    font-family: 'Bebas Neue', cursive;
+ 
+}
+
+.navigation{
+    background: url(../finalimg/detroitwatertower1.jpeg) no-repeat, center, center, fixed;
+    background-size: cover;
+    height: 100%;
+    background-color: #112c66;
+}
+.logo{
+    float: right;
+    margin: 8px;
+    cursor: pointer;
+}
+
+/*no-repeat center center fixed;*/
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*personal touch: navbar*/
+ul{
+    height: 150px;
+}
+.logo{
+    float: right;
+    margin: 8px;
+    cursor: pointer;
+}
+/*navbar*/
+ul{
+    list-style: none;
+    background: #22438C;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.dropdown li{
+    background: #22438C;
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background: #22438C ;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background: #112c66;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/*body: arti, sect, aside*/
+
+p{
+    color: #fff;
+}
+.body-items{
+    color: #f2f2f2;
+    padding: 3%;
+    margin: 4%;
+    background-color: #22438C;
+}
+*{
+    
+     font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container.test{
+    background: linear-gradient(45deg, aqua, yellow);
+}
+.item{
+    background-color: #112c66;
+    font-size: 24px;
+    padding: 10px;
+    margin: 2%;
+    border: solid black;
+}
+.item:hover{
+    background-color: #fff;
+color: black;
+}
+.container{
+    background: linear-gradient(-90deg, darkgrey, grey);
+    display: flex;
+    flex-direction: column;
+}
+/*
+--styles for: navbar: pract1 google fonts---
+*/
+.container-form{
+    background: linear-gradient(-90deg, darkgrey, grey);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   height: fit-content;
+   margin: 5%;
+   padding: 4%;
+}
+.ci-li{
+    padding: 5px;
+    margin-left: 8%;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    padding-left: 7%;
+}
+textarea{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+.container.form{
+    padding: 0 0 2% 2%;
+}

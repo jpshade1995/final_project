@@ -5,10 +5,27 @@ body{
     background: linear-gradient(90deg, aqua, yellow);
 }
 *{
-
     
-    font-size: 16px;
+     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-row{
+display: flex;
+}
+.column{
+    border-radius: 15px;
+flex: 30%;
+border: #04aa6d solid;
+}
+#column-one{
+background-color: #000000;
+}
+#column-two{
+background-color: grey;
+}
+
+.container.test{
+    background: linear-gradient(45deg, aqua, yellow);
 }
 .item{
     background-color: #04aa6d;

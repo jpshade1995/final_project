@@ -138,11 +138,24 @@ color: black;
 /*
 --styles for: navbar: pract1 google fonts---
 */
+.column-aside {
+    padding: 3% ;
+    margin: 5px;
+    flex: 45%;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.row-aside {
+    content: "";
+    display: flex;
+    clear: both;
+  }
 .container-form{
     background: linear-gradient(-90deg, darkgrey, grey);
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
    height: fit-content;
    margin: 5%;
    padding: 4%;
